@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Student Portal</h1>
+            <p class="lead">Manage student data</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-success btn-block" onclick="getData()">Get Data</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped" id="table">
+                        <thead>
+                            <tr>
+                                <th>FIRSTNAME</th>
+                                <th>LASTNAME</th>
+                                <th>EMAIL</th>
+                                <th>CNIC</th>
+                                <th>USERTYPE</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody id="table-body">
+                            <!-- Data will be displayed here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        <!-- </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-header">Update Firstname</h5>
+                    <div class="card-body">
+                        <input type="text" class="form-control" id="firstname" placeholder="Enter new firstname">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-header">Update Lastname</h5>
+                    <div class="card-body">
+                        <input type="text" class="form-control" id="lastname" placeholder="Enter new lastname">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-header">Update CNIC</h5>
+                    <div class="card-body">
+                        <input type="text" class="form-control" id="cnic" placeholder="Enter new CNIC">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <script type="module" src="/js/studentportal.js"></script>
+</body>
+</html>
